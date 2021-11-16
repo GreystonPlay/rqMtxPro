@@ -63,16 +63,6 @@ namespace rqMtx.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap b_default {
-            get {
-                object obj = ResourceManager.GetObject("b_default", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap b_default1 {
             get {
                 object obj = ResourceManager.GetObject("b_default1", resourceCulture);
@@ -166,6 +156,16 @@ namespace rqMtx.Properties {
         internal static System.Drawing.Bitmap g_exso {
             get {
                 object obj = ResourceManager.GetObject("g_exso", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap main_repeat {
+            get {
+                object obj = ResourceManager.GetObject("main-repeat", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
