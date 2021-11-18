@@ -69,7 +69,7 @@ namespace rqMtx
             "Костюм варвара",
             "Костюм экзомеханиста",
             "Костюм Ганмен-пилота",
-            "Король Короля Пик",
+            "Король Пик",
             "Костюм Демона",
             "Костюм Короля Червей",
             "Костюм Воителя",
@@ -370,7 +370,7 @@ namespace rqMtx
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(19)))), ((int)(((byte)(19)))));
             this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(255)))), ((int)(((byte)(0)))));
+            this.label9.ForeColor = System.Drawing.Color.Green;
             this.label9.Location = new System.Drawing.Point(466, 430);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(56, 16);
