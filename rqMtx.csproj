@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E2B80DC2-A6E9-477B-BA3D-5D64391238DA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>rqMtxLite</RootNamespace>
-    <AssemblyName>rqMtxLite</AssemblyName>
+    <RootNamespace>rqMtx</RootNamespace>
+    <AssemblyName>rqMtx</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -184,6 +184,74 @@
     <None Include="Resources\char_girl.jpg" />
     <None Include="Resources\char_girl_en.jpg" />
     <None Include="Resources\main-repeat.jpg" />
+    <None Include="Resources\b_alekin.jpg" />
+    <None Include="Resources\b_buben.jpg" />
+    <None Include="Resources\b_chasov.jpg" />
+    <None Include="Resources\b_cherv.jpg" />
+    <None Include="Resources\b_default2.jpg" />
+    <None Include="Resources\b_demon.jpg" />
+    <None Include="Resources\b_druid.jpg" />
+    <None Include="Resources\b_exso1.jpg" />
+    <None Include="Resources\b_ganmen.jpg" />
+    <None Include="Resources\b_pik.jpg" />
+    <None Include="Resources\b_relic.jpg" />
+    <None Include="Resources\b_snej.jpg" />
+    <None Include="Resources\b_tref.jpg" />
+    <None Include="Resources\b_vamp.jpg" />
+    <None Include="Resources\b_varvar.jpg" />
+    <None Include="Resources\b_vladikcherv.jpg" />
+    <None Include="Resources\b_voitel.jpg" />
+    <None Include="Resources\g_buben.jpg" />
+    <None Include="Resources\g_chasov.jpg" />
+    <None Include="Resources\g_cherv.jpg" />
+    <None Include="Resources\g_default1.jpg" />
+    <None Include="Resources\g_demon.jpg" />
+    <None Include="Resources\g_driad.jpg" />
+    <None Include="Resources\g_exso1.jpg" />
+    <None Include="Resources\g_kolom.jpg" />
+    <None Include="Resources\g_kosh.jpg" />
+    <None Include="Resources\g_krolik.jpg" />
+    <None Include="Resources\g_nimf.jpg" />
+    <None Include="Resources\g_pik.jpg" />
+    <None Include="Resources\g_relic.jpg" />
+    <None Include="Resources\g_snej.jpg" />
+    <None Include="Resources\g_tref.jpg" />
+    <None Include="Resources\g_vamp.jpg" />
+    <None Include="Resources\g_voitel.jpg" />
+    <None Include="Resources\b_alekin1.jpg" />
+    <None Include="Resources\b_buben1.jpg" />
+    <None Include="Resources\b_chasov1.jpg" />
+    <None Include="Resources\b_cherv1.jpg" />
+    <None Include="Resources\b_default3.jpg" />
+    <None Include="Resources\b_demon1.jpg" />
+    <None Include="Resources\b_druid1.jpg" />
+    <None Include="Resources\b_exso2.jpg" />
+    <None Include="Resources\b_ganmen1.jpg" />
+    <None Include="Resources\b_pik1.jpg" />
+    <None Include="Resources\b_relic1.jpg" />
+    <None Include="Resources\b_snej1.jpg" />
+    <None Include="Resources\b_tref1.jpg" />
+    <None Include="Resources\b_vamp1.jpg" />
+    <None Include="Resources\b_varvar1.jpg" />
+    <None Include="Resources\b_vladikcherv1.jpg" />
+    <None Include="Resources\b_voitel1.jpg" />
+    <None Include="Resources\g_buben1.jpg" />
+    <None Include="Resources\g_chasov1.jpg" />
+    <None Include="Resources\g_cherv1.jpg" />
+    <None Include="Resources\g_default2.jpg" />
+    <None Include="Resources\g_demon1.jpg" />
+    <None Include="Resources\g_driad1.jpg" />
+    <None Include="Resources\g_exso2.jpg" />
+    <None Include="Resources\g_kolom1.jpg" />
+    <None Include="Resources\g_kosh1.jpg" />
+    <None Include="Resources\g_krolik1.jpg" />
+    <None Include="Resources\g_nimf1.jpg" />
+    <None Include="Resources\g_pik1.jpg" />
+    <None Include="Resources\g_relic1.jpg" />
+    <None Include="Resources\g_snej1.jpg" />
+    <None Include="Resources\g_tref1.jpg" />
+    <None Include="Resources\g_vamp1.jpg" />
+    <None Include="Resources\g_voitel1.jpg" />
     <Content Include="rqmain.ico" />
   </ItemGroup>
   <ItemGroup>

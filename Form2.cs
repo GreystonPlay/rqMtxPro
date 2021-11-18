@@ -17,7 +17,7 @@ namespace rqMtx
     public partial class Form2 : Form
     {
         string HWID;
-        string srvl = "https://greystonsoft.000webhostapp.com/index.txt";
+        string srvl = "https://greystonsoft.000webhostapp.com/index3.txt";
         public Form2()
         {
             InitializeComponent();

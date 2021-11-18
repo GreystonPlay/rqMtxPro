@@ -66,8 +66,22 @@ namespace rqMtx
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Убрать костюм",
-            "Костюм Варвара",
-            "Костюм Экзомеханиста"});
+            "Костюм варвара",
+            "Костюм экзомеханиста",
+            "Костюм Ганмен-пилота",
+            "Король Короля Пик",
+            "Костюм Демона",
+            "Костюм Короля Червей",
+            "Костюм Воителя",
+            "Снежное одеяние",
+            "Плащ вампира",
+            "Костюм Короля Треф",
+            "Костюм Владыки Червей",
+            "Костюм Короля Бубен",
+            "Одеяние Стража Времени",
+            "Реликтовый костюм",
+            "Облачение друида",
+            "Костюм Арлекина"});
             this.comboBox1.Location = new System.Drawing.Point(362, 109);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.comboBox1.Name = "comboBox1";
@@ -97,8 +111,36 @@ namespace rqMtx
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "Убрать украшение",
+            "Фантом",
+            "Длань Света",
             "Печать Морры",
-            "Длань Света"});
+            "Гуфсла",
+            "Крылья ангела",
+            "Тяга к приключениям",
+            "Опытный искатель приключений",
+            "Глаз Носферату",
+            "Огненная фея",
+            "Осколок Света",
+            "Ледяная поступь",
+            "Сила любви",
+            "Огненная поступь",
+            "Морозная поступь",
+            "Дыхание Морры",
+            "Поступь Тыквенного Безумия",
+            "Синий Чешир",
+            "Порхающие бабочки",
+            "Легкие крылья полудня",
+            "Легкие прылья зари",
+            "Легкие крылья леса",
+            "Легкие крылья заката",
+            "Легкие крылья исцеления",
+            "Темные крылья кошмара",
+            "Темные крылья холода",
+            "Темные крылья предательства",
+            "Темные крылья коварства",
+            "Темные крылья иссушения",
+            "Зимняя сказка",
+            "Золотая поступь"});
             this.comboBox2.Location = new System.Drawing.Point(362, 167);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.comboBox2.Name = "comboBox2";
@@ -142,8 +184,22 @@ namespace rqMtx
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Items.AddRange(new object[] {
             "Убрать костюм",
-            "Костюм Кошки",
-            "Костюм Экзомеханистки"});
+            "Костюм кошечки",
+            "Костюм экзомеханистки",
+            "Костюм Дамы Пик",
+            "Костюм Демонессы",
+            "Костюм кролика",
+            "Одеяние Дриады",
+            "Костюм Воительницы",
+            "Снежное одеяние",
+            "Платье вампирши",
+            "Костюм Дамы Треф",
+            "Костюм Дамы Червей",
+            "Костюм Дамы Бубен",
+            "Одеяние Стражницы Времени",
+            "Реликтовый костюм",
+            "Облачение нимфы",
+            "Костюм Коломбины"});
             this.comboBox3.Location = new System.Drawing.Point(362, 109);
             this.comboBox3.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.comboBox3.Name = "comboBox3";
@@ -157,7 +213,7 @@ namespace rqMtx
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(19)))), ((int)(((byte)(19)))));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label3.Location = new System.Drawing.Point(362, 464);
+            this.label3.Location = new System.Drawing.Point(398, 456);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(62, 16);
             this.label3.TabIndex = 12;
@@ -168,7 +224,7 @@ namespace rqMtx
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(19)))), ((int)(((byte)(19)))));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label6.Location = new System.Drawing.Point(430, 464);
+            this.label6.Location = new System.Drawing.Point(466, 456);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(52, 16);
             this.label6.TabIndex = 15;
@@ -199,7 +255,7 @@ namespace rqMtx
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::rqMtx.Properties.Resources.main_repeat;
-            this.pictureBox1.Image = global::rqMtx.Properties.Resources.b_default1;
+            this.pictureBox1.Image = global::rqMtx.Properties.Resources.b_default;
             this.pictureBox1.Location = new System.Drawing.Point(12, 85);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.pictureBox1.Name = "pictureBox1";
@@ -244,12 +300,14 @@ namespace rqMtx
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
             this.label7.Location = new System.Drawing.Point(126, 9);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(41, 16);
+            this.label7.Size = new System.Drawing.Size(39, 16);
             this.label7.TabIndex = 19;
-            this.label7.Text = "[Lite]";
+            this.label7.Text = "[Pro]";
             // 
             // button3
             // 
@@ -301,7 +359,7 @@ namespace rqMtx
             this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(19)))), ((int)(((byte)(19)))));
             this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label8.Location = new System.Drawing.Point(362, 436);
+            this.label8.Location = new System.Drawing.Point(372, 429);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(88, 16);
             this.label8.TabIndex = 23;
@@ -313,7 +371,7 @@ namespace rqMtx
             this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(19)))), ((int)(((byte)(19)))));
             this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(255)))), ((int)(((byte)(0)))));
-            this.label9.Location = new System.Drawing.Point(456, 437);
+            this.label9.Location = new System.Drawing.Point(466, 430);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(56, 16);
             this.label9.TabIndex = 24;
@@ -325,7 +383,7 @@ namespace rqMtx
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.BackgroundImage = global::rqMtx.Properties.Resources.main_repeat;
-            this.ClientSize = new System.Drawing.Size(530, 494);
+            this.ClientSize = new System.Drawing.Size(530, 481);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.panel1);
